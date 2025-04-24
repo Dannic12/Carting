@@ -423,6 +423,7 @@ bottom: 20px;
   grid-template-columns: 305px 305px 305px 305px;
   grid-template-rows: 2fr;
   text-align: center;
+  justify-content: center;
 }
 
 .cars-img{
@@ -451,6 +452,73 @@ bottom: 20px;
   padding: 100px 0;
   color: rgb(255, 255, 255);
 }
+
+.reviews{
+  background-color: #101010;
+  color: rgb(255, 255, 255);;
+}
+
+.reviews__title{
+  display: flex;
+  justify-content: center;
+  line-height: 1.2;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.reviews__item{
+  border: 1px solid rgba(255, 255, 255, .2);
+  padding: 45px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+  width: 270px;
+  text-align: center;
+}
+
+.reviews__item-title{
+  font-size: 24px;
+}
+
+.reviews__item-text{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.55;
+  margin-top: 30px;
+}
+
+.reviews__slider .slick-dots button{
+  color: rgb(255, 255, 255);
+
+}
+
+.slick-dots button{
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.reviews__slider .slick-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.reviews__slider button{
+  margin: 0 5px;
+  line-height: 12px;
+}
+
+
   
 
 
