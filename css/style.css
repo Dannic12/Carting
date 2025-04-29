@@ -8,13 +8,14 @@ html {
   box-sizing: inherit;
 }
 
-body{
+html,body{
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
   min-height: 100vh;
   scrollbar-gutter: stable;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -765,13 +766,14 @@ justify-content: space-between;
 }
 
 .contacts__btn{
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto" sans-serif;
   font-weight: 400;
   font-size: 15px;
   padding: 15px 35px;
   background-color: #111;
   border: none;
   color: #ededed;
+  cursor: pointer;
 }
 
 .footer{
@@ -1023,7 +1025,25 @@ margin-left: 117px;
     min-width: 350px;
     height: 660px;
   }
+
+  .popup__content {
+    max-width: 320px;
+  }
+
+  .popup__title {
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .popup__img {
+    width: 250px;
+  }
+
+  .popup__text {
+    font-size: 14px;
+  }
 }
+
 
 @media (max-width:770px) {
   .promo__title {
